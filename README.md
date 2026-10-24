@@ -73,3 +73,18 @@ node verify-wallpaper.mjs
 ## License
 
 MIT（见 `LICENSE`）。方正字体为商业字体，仓库仅按字体名引用，未打包字体文件。
+## 功能特性
+- 支持本地图片和视频作为背景
+- 视频声音开关控制
+- 视频区域裁剪（CSS Region Crop）并持久化保存
+- 支持文本样式自定义
+- 本地持久化，重启不丢失配置
+
+## 快速开始
+1. 确保已安装并启用 DeepSeek Harness
+2. 将本仓库克隆或下载到本地
+3. 在 DeepSeek 中启用 DSH-easywallpaper 插件
+4. 上传图片或视频，调整裁剪区域和文本样式即可
+
+## 贡献指南
+欢迎提交 Issue 和 Pull Request。首次贡献可从 `documentation` 或 `good first issue` 标签的任务开始。
